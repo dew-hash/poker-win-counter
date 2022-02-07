@@ -20,7 +20,7 @@ class PlayerTest {
     @Test
     @DisplayName("Given cards of the same suit, should return 38428")
     void countScoreForFlush() {
-        assertEquals(38428, player.countScoreForFlush());
+        assertEquals(38436, player.countScoreForFlush());
     }
 
     @Test
