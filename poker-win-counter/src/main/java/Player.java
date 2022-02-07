@@ -52,7 +52,7 @@ public class Player {
     }
 
     /**
-     * Sets score to 38425 if hand contains any 5 cards of the same suit.
+     * Sets score to 38436 if hand contains any 5 cards of the same suit.
      * If hand doesn't contain 5 cards of the same suit, score is set to 1.
      * @return 38428 - if hand is flush, 1 - if hand is not flush.
      */
@@ -63,12 +63,12 @@ public class Player {
                 return 1;
             }
         }
-        this.score = 38428;
-        return 38428;
+        this.score = 38436;
+        return 38436;
     }
 
     /**
-     * Multiplies score by 38424 if hand contains 5 cards of consecutive rank.
+     * Multiplies score by 38427 if hand contains 5 cards of consecutive rank.
      * It doesn't matter if cards are from more than one suit.
      * @return 38427 - if hand is straight and 1 if it is not straight.
      */
