@@ -1,10 +1,10 @@
 This poker-win-counter is written by Rasa Petrauskiene.
 
 This poker-win-counter counts the score for hand in such manner:
-First it gives 38428 points for player if all his cards in hand
+First it gives 38436 points for player, if all his cards in hand
 are of the same suit. It they are not, the player gets 1 point.
-Then the counter check if all player's cards are of consecutive ranks.
-If they are the player's score is multiplied by 38427. If the cards
+Then the counter checks if all player's cards are of consecutive ranks.
+If they are, the player's score is multiplied by 38427. If the cards
 are not of consecutive ranks, the score is not multiplied. Then the
 score for repetitive rank cards is counted and added to the player's
 score. The score for a pair of the same rank is counted like this:
@@ -26,7 +26,7 @@ It removes the card of highest rank and adds the value of that rank to the
 player's score. This process of taking highest rank card is repeated
 until the winner is clear.
 The maximum score the player can get for the hand, so called Royal flush,
-is 1476672760 which achieved if the player's all cards in hand are of the
+is 1476980186 which is achieved if the player's all cards in hand are of the
 same suit, consecutive ranks and contains Ace.
 
 
